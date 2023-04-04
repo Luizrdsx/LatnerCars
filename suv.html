@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>SUV | LatnerCars</title>
+</head>
+
+<body>
+    <header style="background-image: url('img/background-suv.png');">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/Logocar.png" alt="Logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Início</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+
+                <!--MENU-->
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <!--FIM MENU-->
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Confira nossos modelos de SUV's</h1>
+                    <p> 
+                        Oferecemos uma ampla seleção de veículos
+                        para atender às suas necessidades de locomoção.<br><br>
+                    </p>
+                    <a href="reserva.html" class="btn ">Faça sua reserva</a>
+                </div>
+            </section>
+        </div>
+    </header>
+
+
+    <!--SUV-->
+    <section class="suv">
+        <div class="container">
+            <h3>Modelos disponíveis</h3>
+            <h4>
+                Descubra novos horizontes com nossos modelos SUV's de alto desempenho | Sua aventura começa aqui!
+            </h4>
+            <!--ROW CARDS-->
+            <div class="rows-cards">
+                    <!--ROW CARD ITEM 1-->
+                    <div class="row-card-item">
+                        <img src="img/suv/jeepcompass.png" alt="">
+                        <h1 class="nome-suv"><strong>2018 Jeep Compass 2.0 16V LONGITUDE</strong></h1>
+                        <p class="descricao-suv">Cor: <b>Cinza</b><br> Tipo de combustível: <b>Gasolina e álcool</b><br> Motor: <b>2.0</b><br>
+                            Portas: <b>4</b><br>Sensor de estacionamento: <b>Sim</b><br> Transmissão: <b>Automática</b>
+                        </p>
+                    </div>
+                <!--FIM ROW CARD ITEM 1-->
+                <!--ROW CARD ITEM 2-->
+                <div class="row-card-item">
+                    <img src="img/suv/porschecayenne.png" alt="">
+                    <h1 class="nome-suv"><strong>2019 Porsche Cayenne 3.6 V6 S</strong></h1>
+                    <p class="descricao-suv">Cor: <b>Prata</b><br> Tipo de combustível: <b>Gasolina</b><br> Motor: <b>3.6</b><br> Portas:
+                        <b>5</b><br>Sensor de estacionamento: <b>Sim</b><br> Transmissão: <b>Automática</b>
+                    </p>
+                </div>
+            <!--FIM ROW CARD ITEM 2-->
+            <!--ROW CARD ITEM 3-->
+            <div class="row-card-item">
+                <img src="img/suv/mercedeswagon.png" alt="">
+                <h1 class="nome-suv"><strong>2016 Mercedes Benz G Wagon</strong></h1>
+                <p class="descricao-suv">Cor: <b>Preto</b><br> Tipo de combustível: <b>Gasolina</b><br> Motor: <b>5.5 V8 Turbo</b><br> Portas:
+                    <b>5</b><br>Sensor de estacionamento: <b>Sim</b><br> Transmissão: <b>Automática</b>
+                </p>
+            </div>
+            <!--FIM ROW CARD ITEM 3-->
+            <!--ROW CARD ITEM 4-->
+            <div class="row-card-item">
+                <img src="img/suv/landroverdiscovery.png" alt="">
+                <h1 class="nome-suv"><strong>2018 Land Rover Discovery Sport</strong></h1>
+                <p class="descricao-suv">Cor: <b>Branco</b><br> Tipo de combustível: <b>Gasolina</b><br> Motor: <b>2.0</b><br> Portas:
+                    <b>4</b><br>Sensor de estacionamento: <b>Sim</b><br> Transmissão: <b>Automática</b>
+                </p>
+            </div>
+            <!--FIM ROW CARD ITEM 4-->
+            <!--ROW CARD ITEM 5-->
+            <div class="row-card-item">
+                <img src="img/suv/kiasportage.png" alt="">
+                <h1 class="nome-suv"><strong>2017 Kia Sportage</strong></h1>
+                <p class="descricao-suv">Cor: <b>Prateado</b><br> Tipo de combustível: <b>Gasolina e álcool</b><br> Motor: <b>2.0</b><br> Portas:
+                    <b>4</b><br>Sensor de estacionamento: <b>Sim</b><br> Transmissão: <b>Automática</b>
+                </p>
+            </div>
+            <!--FIM ROW CARD ITEM 5-->
+            <!--ROW CARD ITEM 6-->
+            <div class="row-card-item">
+                <img src="img/suv/jaguarfpace.png" alt="">
+                <h1 class="nome-suv"><strong>2018 Jaguar Epace Rdynamic S</strong></h1>
+                <p class="descricao-suv">Cor: <b>Azul</b><br> Tipo de combustível: <b>Diesel</b><br> Motor: <b>2.0</b><br> Portas:
+                    <b>5</b><br>Sensor de estacionamento: <b>Sim</b><br> Transmissão: <b>Automática</b>
+                </p>
+            </div>
+        
+        <!--FIM ROW CARD ITEM 6-->
+
+
+
+        </div>
+        <!--FIM ROW CARDS-->
+    </section>
+    <!--FIM SUV-->
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/"><i class="fa fa-github"></i></a>
+                <a href="https://br.linkedin.com"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>Desenvolvido por Luiz Ricardo</p>
+        </div>
+    </footer>
+    <!--FIM FOOTER-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

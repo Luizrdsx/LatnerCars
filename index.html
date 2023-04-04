@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Início | LatnerCars</title>
+</head>
+
+<body>
+    <header style="background-image: url('img/background-home.png');">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/Logocar.png" alt="Logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Início</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+
+                <!--MENU-->
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <!--FIM MENU-->
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Aluguel de carros novos e seminovos</h1>
+                    <p>Vá mais longe com conforto e segurança.<br> Alugue conosco</p>
+                    <a href="contato.html" class="btn ">Entrar em contato</a>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <!--AREA CARRO-->
+    <section class="section-cards">
+        <h2>Modelos disponíveis</h2>
+        <p>Escolha um modelo abaixo e confira</p>
+        <div class="cards">
+            <div class="card">
+                <a href="suv.html">
+                    <img src="img/suv.png" alt="Imagem de um SUV">
+                </a>
+                SUV
+            </div>
+
+            <div class="card">
+                <a href="sedan.html">
+                    <img src="img/mercedes.png">
+                </a>
+                SEDAN
+            </div>
+
+            <div class="card">
+                <a href="eletrico.html">
+                    <img src="img/eletrico.png">
+                </a>
+                ELÉTRICO
+            </div>
+
+            <div class="card">
+                <a href="van.html">
+                    <img src="img/van.png">
+                </a>
+                VAN
+            </div>
+
+            <div class="card">
+                <a href="camionete.html">
+                    <img src="img/camionete.png">
+                </a>
+                CAMIONETE
+            </div>
+
+            <div class="card">
+                <a href="esportivo.html">
+                    <img src="img/esportivo.png">
+                </a>
+                ESPORTIVO
+            </div>
+        </div>
+        <!--FIM AREA CARRO-->
+
+        <!--FROTA-->
+        <section class="frota">
+            <div class="container">
+                <div class="frota-text">
+                    <h3>Toda nossa frota sempre em constante renovação</h3>
+                </div>
+                <div class="frota-img">
+                    <img src="img/chave.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!--FIM FROTA-->
+
+        <!--DEPOIMENTO-->
+        <section class="depoimentos">
+            <div class="container">
+                <h3>Nossos Depoimentos</h3>
+                <p>Leia o que nossos clientes falam de nós para o mundo</p>
+                <div class="cards2">
+                    <!--CARD ITEM 1-->
+                    <div class="card-item">
+                        <img src="img/me1.png" alt="Lucas">
+                        <p class="nome-user">Lucas</p>
+                        <p class="depoimento-user">
+                            Excelente atendimento da LatnerCars,
+                            desde o primeiro contato até a efetivação da minha locação.
+                            Com certeza será minha referência para futuros negócios
+                        </p>
+                        <div class="estrelas">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <!--FIM CARD ITEM 1-->
+
+                    <!--CARD ITEM 2-->
+                    <div class="card-item">
+                        <img src="img/me2.png" alt="Samantha">
+                        <p class="nome-user">Samantha</p>
+                        <p class="depoimento-user">
+                            Obrigada Equipe LatnerCars, achei muito dinâmico o atendimento,
+                            embora tive um pequeno probleminha, que logo foi resolvido.
+                        </p>
+                        <div class="estrelas">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <!--FIM CARD ITEM 2-->
+
+                    <!--CARD ITEM 3-->
+                    <div class="card-item">
+                        <img src="img/me3.png" alt="Edson">
+                        <p class="nome-user">Edson</p>
+                        <p class="depoimento-user">
+                            A LatnerCars oferece diversas opções de veículos de todos os gostos e valores,
+                            super recomendo e com certeza irei contrarar mais vezes.
+                        </p>
+                        <div class="estrelas">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <!--FIM CARD ITEM 3-->
+
+                </div>
+            </div>
+        </section>
+        <!--FIM DEPOIMENTO-->
+
+        <!--NOSSOS PARCEIROS-->
+        <section class="parceiros">
+            <div class="container">
+                <h3>NOSSOS PARCEIROS</h3>
+                <p>A Importância de Boas Parcerias para o Sucesso!</p>
+                <div>
+                    <img src="img/yokohama.png" alt="Yokohama">
+                    <img src="img/petrobras.png" alt="Petrobras">
+                    <img src="img/mahle.png" alt="Mahle">
+                    <img src="img/weichai.png" alt="Weichai">
+                </div>
+            </div>
+        </section>
+        <!--NOSSOS PARCEIROS-->
+        <!--FOOTER-->
+        <footer class="footer">
+            <div class="container">
+                <div class="links">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://github.com/"><i class="fa fa-github"></i></a>
+                    <a href="https://br.linkedin.com"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <p>Desenvolvido por Luiz Ricardo</p>
+            </div>
+        </footer>
+        <!--FIM FOOTER-->
+        <script src="js/main.js"></script>
+</body>
+
+</html>
